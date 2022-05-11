@@ -9,8 +9,10 @@ vehiclemakenet-on-tao-toolkit は、NVIDIA TAO TOOLKIT を用いて VehicleMakeN
 - TensorRT Runtime
 
 ## VehicleMakeNetについて
-VehicleMakeNet は、画像内の車を検出し、２０種類の車種に分類したカテゴリラベルを返すAIモデルです。  
-VehicleMakeNet は、特徴抽出にResNet18を使用しており、混雑した場所でも正確に物体検出を行うことができます。
+VehicleMakeNet は、画像内の車を検出し、２０種類の車メーカーに分類したカテゴリラベルを返すAIモデルです。  
+VehicleMakeNet は、特徴抽出にResNet18を使用しており、混雑した場所でも正確に物体検出を行うことができます。  
+なお、VehicleMakeNet は、DashCamNetのモデルで検知された車に対して、メーカーを分類するモデルのため、DashCamNetのリソースと合わせて利用されます。  
+
 
 ## 動作手順
 
